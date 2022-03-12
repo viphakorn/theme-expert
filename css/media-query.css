@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1299px) {
+  header .content {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .efficiency {
+    flex-wrap: wrap-reverse;
+  }
+}
+@media only screen and (max-width: 910px) {
+  nav #menu-btn{
+    display: block;
+    font-size: 2rem;
+    color: var(--purple);
+  }
+  nav .menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    background: var(--white);
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 20rem;
+    height: 100vh;
+    z-index: 1000;
+    box-shadow: 0 0 30px hsla(0, 0%, 0%, 0.15);
+    transition: 0.3s;
+  }
+  nav .menu  #menu-btn{
+    padding: 2rem;
+    width: 100%;
+  }
+  nav .menu .links,
+  .callback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .menu .btn {
+    margin: 0;
+  }
+  nav .menu a{
+    padding: 2rem;
+  }
+  nav .menu a:after{
+    bottom: 15px;
+  }
+  .feature .content img {
+    position: static;
+    margin-top: 1rem;
+  }
+  .intro-quote {
+    flex-wrap: wrap;
+  }
+  footer .footer {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-quote .shape .text {
+    max-width: 240px;
+  }
+}

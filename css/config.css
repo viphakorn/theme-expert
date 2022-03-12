@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;900&family=Maven+Pro:wght@400;500;700&display=swap");
+:root {
+  --purple: #5127e5;
+  --blue: #009dff;
+  --black: #000000;
+  --grey: #f2f2f2;
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+  text-decoration: none;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+img {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.container {
+  max-width: 1299px;
+  margin: 0 auto;
+}
