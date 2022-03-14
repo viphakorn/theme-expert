@@ -50,6 +50,10 @@
     position: static;
     margin-top: 1rem;
   }
+  .feedback .features .item.frame {
+    border-left: none;
+    border-right: none;
+  }
   .intro-quote {
     flex-wrap: wrap;
   }
@@ -61,4 +65,10 @@
   .intro-quote .shape .text {
     max-width: 240px;
   }
+  header img.person{
+    position: static;
+  }.feature .content .percent h1{
+    display: block;
+  }
+  
 }

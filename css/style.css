@@ -180,9 +180,9 @@ header .content .btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
-  margin: 5vw 0;
+  margin: 5vw 1rem;
 }
 .feature .content {
   max-width: 1125px;
@@ -436,7 +436,7 @@ header .content .btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 1rem;
+  margin: 1rem;
   padding: 10px;
   opacity: 0.5;
   transition: 0.3s;
@@ -511,13 +511,13 @@ footer > img{
   height: 100vh;
 }
 footer .faq {
-  max-width: 1125px;
-  width: 100%;
+  max-width: 100%;
+  /* width: 100%; */
   min-height: 600px;
   background: var(--white);
   box-shadow: 0 0 30px hsla(0, 0%, 0%, 0.15);
   padding: 9vw;
-  margin: auto;
+  margin: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
