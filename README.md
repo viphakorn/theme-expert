@@ -1,3 +1,3 @@
-# theme expert
+# Theme Expert
 
 PSD to HTML
